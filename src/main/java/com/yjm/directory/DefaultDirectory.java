@@ -20,4 +20,9 @@ public class DefaultDirectory<T> extends  AbstractDirectory<T>{
     protected List<Invoker<T>> dolist(Invocation invocation) {
         return null;
     }
+
+    @Override
+    public URL getUrl() {
+        return null;
+    }
 }
