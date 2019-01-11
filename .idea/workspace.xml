@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f0132de-1c4b-49fe-b1c6-fc1b4721fb22" name="Default" comment="dubbo与spring整合">
+    <list default="true" id="7f0132de-1c4b-49fe-b1c6-fc1b4721fb22" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mydubboread/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mydubboread/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../mydubboread/out/" />
@@ -41,8 +41,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../mydubboread/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-460">
-              <caret line="797" column="10" lean-forward="false" selection-start-line="797" selection-start-column="10" selection-end-line="797" selection-end-column="10" />
+            <state relative-caret-position="-757">
+              <caret line="788" column="10" lean-forward="false" selection-start-line="788" selection-start-column="10" selection-end-line="788" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -198,6 +198,7 @@
         <option value="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/api/HelleoServiceImpl.java" />
         <option value="$PROJECT_DIR$/../mydubboread/src/main/resources/toyrpc-consumer-spring.xml" />
         <option value="$PROJECT_DIR$/../mydubboread/src/main/resources/toyrpc-provider-spring.xml" />
+        <option value="$PROJECT_DIR$/../mydubboread/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -769,7 +770,7 @@
       <workItem from="1546957252028" duration="616000" />
       <workItem from="1547035200866" duration="2143000" />
       <workItem from="1547208808560" duration="516000" />
-      <workItem from="1547209429182" duration="8844000" />
+      <workItem from="1547209429182" duration="8881000" />
     </task>
     <task id="LOCAL-00001" summary="dubbo与spring整合">
       <created>1547037466580</created>
@@ -792,11 +793,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547218732156</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dubbo与spring整合">
+      <created>1547219086860</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547219086860</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28735000" />
+    <option name="totallyTimeSpent" value="28772000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -816,7 +824,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16504854" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3448276" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43678162" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1609,8 +1617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../mydubboread/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
-          <caret line="797" column="10" lean-forward="false" selection-start-line="797" selection-start-column="10" selection-end-line="797" selection-end-column="10" />
+        <state relative-caret-position="-757">
+          <caret line="788" column="10" lean-forward="false" selection-start-line="788" selection-start-column="10" selection-end-line="788" selection-end-column="10" />
           <folding />
         </state>
       </provider>
