@@ -2,25 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f0132de-1c4b-49fe-b1c6-fc1b4721fb22" name="Default" comment="dubbo与spring整合">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/.idea/libraries/Maven__org_springframework_spring_aop_5_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/.idea/libraries/Maven__org_springframework_spring_beans_5_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/.idea/libraries/Maven__org_springframework_spring_context_5_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/.idea/libraries/Maven__org_springframework_spring_core_5_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/.idea/libraries/Maven__org_springframework_spring_expression_5_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/MyDubboBeanDefinitionParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/MyDubboNamespaceHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/ProviderConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mydubboread/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../mydubboread/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/.idea/libraries/Maven__io_netty_netty_all_4_1_29_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/META-INF/spring.handlers" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/META-INF/spring.schemas" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/META-INF/toyRpc.xsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/api/HelleoServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/api/IHelloService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/netty/EchoClientHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/netty/EchoServerHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/netty/NettyClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/netty/NettyServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/proxy/ConsumerInvocationHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/remote/DefaultFuture.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/remote/Request.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/remote/Response.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/ConsumerConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/resources/toyrpc-consumer-spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mydubboread/src/main/resources/toyrpc-provider-spring.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mydubboread/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mydubboread/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mydubboread/mydubboread.iml" afterPath="$PROJECT_DIR$/../mydubboread/mydubboread.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mydubboread/pom.xml" afterPath="$PROJECT_DIR$/../mydubboread/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/directory/DefaultDirectory.java" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/directory/DefaultDirectory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/MyDubboBeanDefinitionParser.java" afterPath="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/MyDubboBeanDefinitionParser.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../mydubboread/out/" />
     <ignored path="$PROJECT_DIR$/../mydubboread/target/" />
@@ -46,25 +49,112 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="MyDubboBeanDefinitionParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/MyDubboBeanDefinitionParser.java">
+      <file leaf-file-name="ConsumerConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/ConsumerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+            <state relative-caret-position="1524">
+              <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
                 <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#1611#1612#0" expanded="true" />
+                <element signature="e#1638#1639#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../mydubboread/pom.xml">
+      <file leaf-file-name="toyrpc-provider-spring.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/resources/toyrpc-provider-spring.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="198">
+              <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toyrpc-consumer-spring.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/resources/toyrpc-consumer-spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="69" lean-forward="false" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring.schemas" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/META-INF/spring.schemas">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="60" lean-forward="false" selection-start-line="0" selection-start-column="60" selection-end-line="0" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IHelloService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/api/IHelloService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelleoServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/api/HelleoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyDubboNamespaceHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/MyDubboNamespaceHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="12" column="94" lean-forward="false" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toyRpc.xsd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/META-INF/toyRpc.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="61" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring.handlers" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/META-INF/spring.handlers">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProviderConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/ProviderConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -116,10 +206,27 @@
         <option value="$PROJECT_DIR$/../mydubboread/src/test/java/ThreadTest.java" />
         <option value="$PROJECT_DIR$/../mydubboread/src/test/java/ThreadPoolTest.java" />
         <option value="$PROJECT_DIR$/../mydubboread/src/test/java/TestQueue.java" />
-        <option value="$PROJECT_DIR$/../mydubboread/pom.xml" />
         <option value="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/MyDubboNamespaceHandler.java" />
         <option value="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/directory/DefaultDirectory.java" />
+        <option value="$PROJECT_DIR$/../mydubboread/pom.xml" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/remote/Response.java" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/netty/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/netty/EchoClientHandler.java" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/netty/NettyServer.java" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/remote/Request.java" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/remote/DefaultFuture.java" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/ConsumerConfig.java" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/netty/NettyClient.java" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/proxy/ConsumerInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/META-INF/toyRpc.xsd" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/META-INF/spring.schemas" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/main/java/META-INF/spring.handlers" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/main/java/META-INF/spring.schemas" />
         <option value="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/MyDubboBeanDefinitionParser.java" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/api/IHelloService.java" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/api/HelleoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/main/resources/toyrpc-consumer-spring.xml" />
+        <option value="$PROJECT_DIR$/../mydubboread/src/main/resources/toyrpc-provider-spring.xml" />
       </list>
     </option>
   </component>
@@ -131,6 +238,20 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="my-dubboread" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
       <PATH>
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
@@ -165,9 +286,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -207,14 +326,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -231,6 +342,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,14 +368,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yjm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springconfig" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,6 +399,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,6 +409,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../incubator-dubbo-ops-develop/incubator-dubbo-ops-develop/dubbo-admin-backend" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="SearchEverywhereHistoryKey" value="ArrayBlock&#9;PSI&#9;JAVA://java.util.concurrent.ArrayBlockingQueue&#10;Bloc&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/concurrent/BlockingQueue.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\mydubboread\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yjm.netty" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\mydubboread\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -676,12 +796,22 @@
       <workItem from="1546875561320" duration="610000" />
       <workItem from="1546954575377" duration="20000" />
       <workItem from="1546957252028" duration="616000" />
-      <workItem from="1547035200866" duration="2081000" />
+      <workItem from="1547035200866" duration="2143000" />
+      <workItem from="1547208808560" duration="516000" />
+      <workItem from="1547209429182" duration="8358000" />
     </task>
+    <task id="LOCAL-00001" summary="dubbo与spring整合">
+      <created>1547037466580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547037466580</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19313000" />
+    <option name="totallyTimeSpent" value="28249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -696,26 +826,26 @@
     <frame x="-10" y="2" width="1938" height="1028" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14303958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45083013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16504854" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16504854" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20292208" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2099567" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -734,146 +864,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/loadbalance/LoadBalance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/route/Router.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/invoker/DefaultInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/invoker/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/invoker/AbstractInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/directory/IDirectory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/directory/AbstractDirectory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/directory/DefaultDirectory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/cluster/ICluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/cluster/DefaultCluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/loadbalance/LoadBalance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/route/Router.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/invoker/DefaultInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/common/Invocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/common/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/common/URL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/route/Router.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/cluster/ICluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/cluster/DefaultCluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/invoker/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -942,10 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5220">
           <caret line="179" column="30" lean-forward="false" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15739#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,24 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
           <caret line="81" column="31" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#49282#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3652#3653#0" expanded="false" />
-            <element signature="e#3708#3709#0" expanded="false" />
-            <element signature="e#3820#3821#0" expanded="false" />
-            <element signature="e#3855#3856#0" expanded="false" />
-            <element signature="e#6812#6813#0" expanded="false" />
-            <element signature="e#6849#6850#0" expanded="false" />
-            <element signature="e#9697#9698#0" expanded="false" />
-            <element signature="e#9732#9733#0" expanded="false" />
-            <element signature="e#22895#22896#0" expanded="false" />
-            <element signature="e#22947#22948#0" expanded="false" />
-            <element signature="e#25061#25062#0" expanded="false" />
-            <element signature="e#25093#25094#0" expanded="false" />
-            <element signature="e#28375#28376#0" expanded="false" />
-            <element signature="e#28416#28417#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,9 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#6410#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,34 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="108" column="34" lean-forward="false" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#35670#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#6196#6197#0" expanded="false" />
-            <element signature="e#6248#6249#0" expanded="false" />
-            <element signature="e#6683#6684#0" expanded="false" />
-            <element signature="e#6726#6727#0" expanded="false" />
-            <element signature="e#16583#16584#0" expanded="false" />
-            <element signature="e#16614#16615#0" expanded="false" />
-            <element signature="e#18289#18290#0" expanded="false" />
-            <element signature="e#18336#18337#0" expanded="false" />
-            <element signature="e#19151#19152#0" expanded="false" />
-            <element signature="e#19205#19206#0" expanded="false" />
-            <element signature="e#20820#20821#0" expanded="false" />
-            <element signature="e#20853#20854#0" expanded="false" />
-            <element signature="e#21273#21274#0" expanded="false" />
-            <element signature="e#21313#21314#0" expanded="false" />
-            <element signature="e#26020#26021#0" expanded="false" />
-            <element signature="e#26072#26073#0" expanded="false" />
-            <element signature="e#30185#30186#0" expanded="false" />
-            <element signature="e#30226#30227#0" expanded="false" />
-            <element signature="e#30684#30685#0" expanded="false" />
-            <element signature="e#30736#30737#0" expanded="false" />
-            <element signature="e#34475#34476#0" expanded="false" />
-            <element signature="e#34568#34569#0" expanded="false" />
-            <element signature="e#35138#35139#0" expanded="false" />
-            <element signature="e#35201#35202#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1122,24 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="79" column="32" lean-forward="false" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#34092#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#7388#7389#0" expanded="false" />
-            <element signature="e#7427#7428#0" expanded="false" />
-            <element signature="e#9211#9212#0" expanded="false" />
-            <element signature="e#9245#9246#0" expanded="false" />
-            <element signature="e#9956#9957#0" expanded="false" />
-            <element signature="e#10001#10002#0" expanded="false" />
-            <element signature="e#23244#23245#0" expanded="false" />
-            <element signature="e#23296#23297#0" expanded="false" />
-            <element signature="e#25238#25239#0" expanded="false" />
-            <element signature="e#25270#25271#0" expanded="false" />
-            <element signature="e#25956#25957#0" expanded="false" />
-            <element signature="e#26002#26003#0" expanded="false" />
-            <element signature="e#32384#32385#0" expanded="false" />
-            <element signature="e#32434#32435#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1147,40 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="76" column="32" lean-forward="false" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#40533#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3920#3921#0" expanded="false" />
-            <element signature="e#3952#3953#0" expanded="false" />
-            <element signature="e#4931#4932#0" expanded="false" />
-            <element signature="e#4970#4971#0" expanded="false" />
-            <element signature="e#17490#17491#0" expanded="false" />
-            <element signature="e#17525#17526#0" expanded="false" />
-            <element signature="e#18437#18438#0" expanded="false" />
-            <element signature="e#18473#18474#0" expanded="false" />
-            <element signature="e#18496#18497#0" expanded="false" />
-            <element signature="e#18530#18531#0" expanded="false" />
-            <element signature="e#19196#19197#0" expanded="false" />
-            <element signature="e#19229#19230#0" expanded="false" />
-            <element signature="e#19252#19253#0" expanded="false" />
-            <element signature="e#19286#19287#0" expanded="false" />
-            <element signature="e#20358#20359#0" expanded="false" />
-            <element signature="e#20410#20411#0" expanded="false" />
-            <element signature="e#21480#21481#0" expanded="false" />
-            <element signature="e#21507#21508#0" expanded="false" />
-            <element signature="e#21597#21598#0" expanded="false" />
-            <element signature="e#21633#21634#0" expanded="false" />
-            <element signature="e#22393#22394#0" expanded="false" />
-            <element signature="e#22440#22441#0" expanded="false" />
-            <element signature="e#30165#30166#0" expanded="false" />
-            <element signature="e#30197#30198#0" expanded="false" />
-            <element signature="e#30636#30637#0" expanded="false" />
-            <element signature="e#30678#30679#0" expanded="false" />
-            <element signature="e#32953#32954#0" expanded="false" />
-            <element signature="e#32996#32997#0" expanded="false" />
-            <element signature="e#38869#38870#0" expanded="false" />
-            <element signature="e#38919#38920#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1188,24 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#18066#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3752#3753#0" expanded="false" />
-            <element signature="e#3782#3783#0" expanded="false" />
-            <element signature="e#4069#4070#0" expanded="false" />
-            <element signature="e#4100#4101#0" expanded="false" />
-            <element signature="e#4914#4915#0" expanded="false" />
-            <element signature="e#4938#4939#0" expanded="false" />
-            <element signature="e#5406#5407#0" expanded="false" />
-            <element signature="e#5437#5438#0" expanded="false" />
-            <element signature="e#13028#13029#0" expanded="false" />
-            <element signature="e#13068#13069#0" expanded="false" />
-            <element signature="e#17079#17080#0" expanded="false" />
-            <element signature="e#17120#17121#0" expanded="false" />
-            <element signature="e#17580#17581#0" expanded="false" />
-            <element signature="e#17632#17633#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,52 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="83" column="29" lean-forward="false" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#45697#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#10183#10184#0" expanded="false" />
-            <element signature="e#10231#10232#0" expanded="false" />
-            <element signature="e#11370#11371#0" expanded="false" />
-            <element signature="e#11460#11461#0" expanded="false" />
-            <element signature="e#11497#11498#0" expanded="false" />
-            <element signature="e#11549#11550#0" expanded="false" />
-            <element signature="e#23343#23344#0" expanded="false" />
-            <element signature="e#23431#23432#0" expanded="false" />
-            <element signature="e#23468#23469#0" expanded="false" />
-            <element signature="e#23519#23520#0" expanded="false" />
-            <element signature="e#23763#23764#0" expanded="false" />
-            <element signature="e#23814#23815#0" expanded="false" />
-            <element signature="e#34990#34991#0" expanded="false" />
-            <element signature="e#35017#35018#0" expanded="false" />
-            <element signature="e#35291#35292#0" expanded="false" />
-            <element signature="e#35374#35375#0" expanded="false" />
-            <element signature="e#38470#38471#0" expanded="false" />
-            <element signature="e#38527#38528#0" expanded="false" />
-            <element signature="e#38706#38707#0" expanded="false" />
-            <element signature="e#38733#38734#0" expanded="false" />
-            <element signature="e#38889#38890#0" expanded="false" />
-            <element signature="e#38913#38914#0" expanded="false" />
-            <element signature="e#39082#39083#0" expanded="false" />
-            <element signature="e#39106#39107#0" expanded="false" />
-            <element signature="e#39454#39455#0" expanded="false" />
-            <element signature="e#39482#39483#0" expanded="false" />
-            <element signature="e#39708#39709#0" expanded="false" />
-            <element signature="e#39736#39737#0" expanded="false" />
-            <element signature="e#40030#40031#0" expanded="false" />
-            <element signature="e#40064#40065#0" expanded="false" />
-            <element signature="e#40293#40294#0" expanded="false" />
-            <element signature="e#40321#40322#0" expanded="false" />
-            <element signature="e#40550#40551#0" expanded="false" />
-            <element signature="e#40578#40579#0" expanded="false" />
-            <element signature="e#40781#40782#0" expanded="false" />
-            <element signature="e#40808#40809#0" expanded="false" />
-            <element signature="e#40996#40997#0" expanded="false" />
-            <element signature="e#41046#41047#0" expanded="false" />
-            <element signature="e#41296#41297#0" expanded="false" />
-            <element signature="e#41350#41351#0" expanded="false" />
-            <element signature="e#41470#41471#0" expanded="false" />
-            <element signature="e#41506#41507#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1496,7 +1317,211 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16">
           <caret line="87" column="32" lean-forward="false" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/test/java/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/directory/AbstractDirectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/directory/DefaultDirectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/test/java/TestQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/remote.java" />
+    <entry file="file://$PROJECT_DIR$/../mydubboread/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1221">
+          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/test/java/ThreadPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/remote/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/netty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/netty/EchoServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/netty/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/netty/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/remote/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="64" column="37" lean-forward="false" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+          <folding>
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1434#1435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/remote/DefaultFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="85" column="52" lean-forward="false" selection-start-line="85" selection-start-column="52" selection-end-line="85" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#644#665#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+            <element signature="e#2020#2021#0" expanded="true" />
+            <element signature="e#3519#3520#0" expanded="true" />
+            <element signature="e#3549#3550#0" expanded="true" />
+            <element signature="e#3596#3597#0" expanded="true" />
+            <element signature="e#3634#3635#0" expanded="true" />
+            <element signature="e#3669#3670#0" expanded="true" />
+            <element signature="e#3699#3700#0" expanded="true" />
+            <element signature="e#3746#3747#0" expanded="true" />
+            <element signature="e#3784#3785#0" expanded="true" />
+            <element signature="e#3817#3818#0" expanded="true" />
+            <element signature="e#3848#3849#0" expanded="true" />
+            <element signature="e#3894#3895#0" expanded="true" />
+            <element signature="e#3934#3935#0" expanded="true" />
+            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#3995#3996#0" expanded="true" />
+            <element signature="e#4038#4039#0" expanded="true" />
+            <element signature="e#4076#4077#0" expanded="true" />
+            <element signature="e#4106#4107#0" expanded="true" />
+            <element signature="e#4134#4135#0" expanded="true" />
+            <element signature="e#4193#4194#0" expanded="true" />
+            <element signature="e#4223#4224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/netty/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="51" column="23" lean-forward="false" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/proxy/ConsumerInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/ConsumerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1524">
+          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#1611#1612#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1508,77 +1533,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/META-INF/toyRpc.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="61" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/MyDubboNamespaceHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/test/java/ThreadPoolTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/test/java/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/directory/AbstractDirectory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/directory/DefaultDirectory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/src/test/java/TestQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="363">
+          <caret line="12" column="94" lean-forward="false" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/springconfig/MyDubboBeanDefinitionParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="18" column="63" lean-forward="false" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        <state relative-caret-position="303">
+          <caret line="40" column="48" lean-forward="false" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mydubboread/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/api.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        <state relative-caret-position="198">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/api/IHelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/com/yjm/api/HelleoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/META-INF/spring.schemas">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="60" lean-forward="false" selection-start-line="0" selection-start-column="60" selection-end-line="0" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/java/META-INF/spring.handlers">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/resources/toyrpc-consumer-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="69" lean-forward="false" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mydubboread/src/main/resources/toyrpc-provider-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
           <folding />
         </state>
       </provider>
