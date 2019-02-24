@@ -7,6 +7,9 @@ import org.springframework.lang.Nullable;
 
 import java.io.Serializable;
 import java.lang.reflect.Proxy;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * com.yjm.springconfig
@@ -55,5 +58,12 @@ public class ConsumerConfig implements FactoryBean<Object> ,Serializable{
     @Override
     public boolean isSingleton() {
         return true;
+    }
+
+    public static void main(String[] args) {
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor();
+        ConcurrentHashMap<Object, Object> map = new ConcurrentHashMap<>();
+        System.gc();
+
     }
 }

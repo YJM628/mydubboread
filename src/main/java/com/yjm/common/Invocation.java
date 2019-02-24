@@ -6,4 +6,5 @@ package com.yjm.common;
  * 请求参数接口
  */
 public interface Invocation {
+    String getMethodName();
 }

@@ -14,6 +14,18 @@ public class URL {
     private  String ip;
     private  Integer port;
     private Map<String,Object> params;
+    private  Object methodParameter;
+
+    public Object getMethodParameter(String methodName,String key,Object deafaultValue) {
+        return methodParameter;
+    }
+    public Object getMethodParameter() {
+        return methodParameter;
+    }
+
+    public void setMethodParameter(Object methodParameter) {
+        this.methodParameter = methodParameter;
+    }
 
     public String getProtocol() {
         return protocol;

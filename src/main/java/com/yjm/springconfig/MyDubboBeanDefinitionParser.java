@@ -13,7 +13,7 @@ import org.w3c.dom.Element;
  * Created by YJM6280 .
  */
 public class MyDubboBeanDefinitionParser implements BeanDefinitionParser{
-    private final Class<?> beanClass;
+    private final  Class<?> beanClass;
 
     public MyDubboBeanDefinitionParser(Class<?> beanClass) {
         this.beanClass = beanClass;

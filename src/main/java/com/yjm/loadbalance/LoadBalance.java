@@ -11,5 +11,5 @@ import java.util.List;
  * Created by YJM6280 .
  */
 public interface LoadBalance {
-    <T> List<Invoker<T>> select(List<Invoker<T>> invokers, URL url, Invocation invocation);
+    <T> Invoker<T> select(List<Invoker<T>> invokers, URL url, Invocation invocation);
 }
